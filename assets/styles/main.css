@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: rgb(7, 88, 126);
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(7, 88, 126);
+    color: white;
+}
+
+.info-nav > ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;   
+    background-color: rgb(10, 112, 180);
+}
+
+.info-nav > ul > li{
+    padding: 15px 120px;
+    font-size: 24px; 
+    background-color: rgb(10, 112, 180);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(10, 112, 180);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 50px; 
+    color: white;
+    background-color:rgb(7, 88, 126);
+}
+
+h1 > span{
+    color: lightsteelblue;
+}
+.main-name{
+    margin-left: 1000px;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#homeSection{
+    background-image: url(/assets/images/backdrop.img.JPG);
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    opacity: 60%;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-style: groove;
+}
+
+
+.projects-container{
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(7, 88, 126);
+}
+
+
+.projects-container > div{
+    flex-basis: 48%;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.projects-container > div img{
+    width: 100%;
+    padding: 20px;
+    border: solid 2px rgb(79, 155, 241);
+    
+    
+    
+    
+}
+
+.project-info{
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.project-info > h3{
+    font-size: 20px;
+}
+
+#aboutMeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: rgb(7, 88, 126); 
+    padding: 20px;
+}
+
+#aboutMeSection p{
+    width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#aboutMeSection hr{
+    width: 400px;
+    margin-top:20px;
+}
+
+#projectsSection > .projects-container{
+    margin-top: 30px;
+    
+}
+
+.contact-me-info {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(7, 88, 126);
+    padding: 10px;
+}
+
+.contact-me-info > article{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.contact-me-info > article:nth-child(2){
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.contact-me-info > article > img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.contact-me-info > article > p{
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: justify;
+    border-top: 1px solid lightgray;
+    color: white;
+    background-color: rgb(7, 88, 126);
+}
