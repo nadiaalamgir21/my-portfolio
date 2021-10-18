@@ -4,7 +4,7 @@ Hi my name is Nadia, this project is my first portfolio from scratch and it has 
 
 
 ## Link to the Application
-https://github.com/nadiaalamgir21/my-portfolio.git
+https://nadiaalamgir21.github.io/my-portfolio/
 
 ## Screenshots
 ### Desktop screen screenshots
