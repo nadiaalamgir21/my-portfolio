@@ -60,7 +60,7 @@ h1 > span{
 }
 
 #homeSection{
-    background-image: url(/assets/images/background.png);
+    background-image: url("./assets/images/background.png");
     min-height: 600px;
     background-position: top;
     background-repeat: no-repeat;
