@@ -21,17 +21,20 @@ h2{
     text-align: center;   
 }
 
-.info-nav > ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;   
+.info-nav{
+    padding: 20px;
     background-color: var(--app-bg-lighter);
 }
 
+.info-nav > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;   
+    
+}
+
 .info-nav > ul > li{
-    padding: 15px 120px;
     font-size: 24px; 
-    background-color: var(--app-bg-lighter);
 }
 
 a{
@@ -49,22 +52,21 @@ h1{
 h1 > span{
     color: lightsteelblue;
 }
-.main-name{
-    margin-left: 1000px;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.design-name{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #homeSection{
     background-image: url(/assets/images/backdrop.img.JPG);
-    height: 600px;
+    min-height: 600px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 60%;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: auto 50px;
     border-style: groove;
 }
 
@@ -76,7 +78,7 @@ h1 > span{
 }
 
 #aboutMeSection p{
-    width: 800px;
+    max-width: 800px;
     text-align: center;
     margin-top: 20px;
    
@@ -96,8 +98,7 @@ h1 > span{
 .projects-container > article{
     flex-basis: 48%;
     position: relative;
-    height: 300px;
-    overflow: hidden;
+    padding: 10px;
     border: solid 2px rgb(79, 155, 241);
 }
 
@@ -163,4 +164,36 @@ footer{
     padding-bottom: 40px;
     text-align: center;
     border-top: 1px solid lightgray;
+}
+
+@media screen  and (max-width: 600px){
+    #homeSection{
+        margin: auto 10px;
+    }
+
+    .info-nav > ul{ 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-me-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-me-info > article:nth-child(2){
+       border: none;
+    }
+
+    .projects-container{
+       flex-direction: column;
+    }
+    
+    .projects-container > article{
+        flex-basis: 100%;
+        padding:5px;
+    }
+
+
+
 }
