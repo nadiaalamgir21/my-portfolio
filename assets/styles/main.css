@@ -1,3 +1,4 @@
+/* I added some repetetive styles via root so if I need to change anything, I can change it in one place. */
 :root{
     --app-bg: rgb(7, 88, 126);
     --app-bg-lighter: rgb(10, 112, 180);
@@ -15,6 +16,7 @@ body{
     color: var(--white);
 }
 
+/* Targetted all h2 and added the same margin, font-size and text position. */
 h2{
     margin-top: 50px;
     font-size: 40px;
@@ -26,6 +28,7 @@ h2{
     background-color: var(--app-bg-lighter);
 }
 
+/* Added flex and justify-content so I can space evenly the nav bar lists. */
 .info-nav > ul{
     display: flex;
     list-style: none;
@@ -37,6 +40,7 @@ h2{
     font-size: 24px; 
 }
 
+/* had to add none for text-decoration since by default the anchor tag provides line underneath. */
 a{
     text-decoration: none;
     color: var(--white);
@@ -59,6 +63,7 @@ h1 > span{
     margin-bottom: 20px;
 }
 
+/* Added the opacity to match the brightness of the page with the background image. */
 #homeSection{
     background-image: url("./../images/background.png");
     min-height: 600px;
@@ -89,7 +94,7 @@ h1 > span{
     margin-top: 20px;
 }
 
-
+/* Added space between so my projects can have distance between them */
 .projects-container{
     display: flex;
     justify-content: space-between; 
@@ -102,7 +107,7 @@ h1 > span{
     border: solid 2px rgb(79, 155, 241);
 }
 
-
+/* Had to add opacity so when we hover over the project img it can look slightly brighter from regular brightness to add focus. */
 .projects-container > article img{
     width: 100%;
     opacity: 0.75;
@@ -129,6 +134,7 @@ h1 > span{
     margin-top: 30px;
 }
 
+/* Had to add opacity so when we hover over the project img it can look slightly brighter to add focus. */
 .projects-container article:hover > a > img {
     opacity: 1;
 }
@@ -144,6 +150,7 @@ h1 > span{
     text-align: center;
 }
 
+/* Added border to left & right using nth-child to seperate the contact-me section and add a bit style to it. */
 .contact-me-info > article:nth-child(2){
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
@@ -166,6 +173,7 @@ footer{
     border-top: 1px solid lightgray;
 }
 
+/* Added max-width to 600px via media quiery so the page can be responsive and properly displayed even after the screen goes to a smaller device, eg: phone, ipad. */
 @media screen  and (max-width: 600px){
     #homeSection{
         margin: auto 0px;
