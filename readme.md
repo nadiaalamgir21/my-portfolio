@@ -2,6 +2,8 @@
 
 Hi my name is Nadia, this project is my first portfolio from scratch and it has been an amazing experience. I have successfully created this project to be responsive and functional. 
 
+This portfolio shows my work so far using HTML, CSS along with flexbox & media queiry. I did add some code designs in the actualy page in the headings to just add my creativity and make the page more unique. Plus since this was to show my work with coding, I thought it would be a good fit to add that as my design for the page.
+
 I decided on a color combination and added the colors easily and was able to change when needed by adding the function to the root which is a huge time saver.
 
 Gave the portfolio a max-width of 600px so it can align properly when the portfolio is opened to a smaller screen like a phone or ipad. Flexbox made this possible of course and flexbox and media queiry are extreamly helpful when it comes to making a page responsive.
