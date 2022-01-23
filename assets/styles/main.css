@@ -96,12 +96,12 @@ h1 > span{
 
 /* Added space between so my projects can have distance between them */
 .projects-container{
-    display: flex;
-    justify-content: space-between; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .projects-container > article{
-    flex-basis: 48%;
     position: relative;
     padding: 10px;
     border: solid 2px rgb(79, 155, 241);
@@ -117,13 +117,9 @@ h1 > span{
     position: absolute;
     font-size: 16px;
     padding: 20px;
-    background-color: rgba(14, 178, 243, 0.5);
+    background-color: rgba(14, 178, 243, 0.7);
     text-align: center;
     z-index: 2;
-}
-
-.project-info{
-    background-color: rgba(14, 178, 243, 0.5);
 }
 
 .project-info > h3{
